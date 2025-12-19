@@ -1,0 +1,36 @@
+.list-1
+{
+    list-style-type:decimal;
+}
+.list-2{
+    list-style-type: disclosure-open;
+    list-style-type: none;
+    padding: 0;
+}
+.list-3{
+    list-style-image: url(../img/3194591.png);
+    background-color: yellow;
+}
+
+.list-3 li{
+    border:solid;
+    margin-bottom: 5px;
+}
+.list-4{
+    list-style-position: inside;
+}
+dl{
+    border:double;
+    
+}
+dt{
+    background-color: darkcyan;
+    padding: 10px;
+    /* text-align: center; */
+}
+dd{
+    background-color: rgb(1, 54, 54);
+    color:#fff;
+    padding: 10px;
+    margin: 0;
+}
