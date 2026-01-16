@@ -1,0 +1,96 @@
+table,
+td,
+th {
+    border: solid 1px;
+}
+
+table.table-1 {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    /* border-spacing: 0; */
+    border-collapse: collapse;
+    display: none;
+}
+
+.col-2 {
+    background-color: tomato;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    /* border:double 5px blue; */
+}
+
+.col-10 {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.table-2 {
+    width: 500px;
+    height: 150px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    display: none;
+}
+
+.table-3 {
+    width: 600px;
+    height: 700px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    display: none;
+}
+
+/* .table-3 tr:nth-child(2)
+{
+    background-color: blueviolet;
+} */
+
+/* .table-3 tr:nth-child(even)
+{
+    background-color: blueviolet;
+}
+
+.table-3 tr:nth-child(odd)
+{
+    background-color: yellow;
+} */
+
+/* .table-3 tr:nth-child(3n)
+{
+    background-color: blueviolet;
+} */
+
+/* .table-3 tr:nth-child(5n - 3)
+{
+    background-color: blueviolet;
+} */
+
+/* .table-3 tr td:nth-child(even)
+{
+    background-color: rgb(111, 9, 96);
+} */
+
+.table-3 tr td:last-child {
+    background-color: crimson;
+}
+
+.table-3 tr td:first-child {
+    background-color: rgb(50, 20, 220);
+}
+
+.wrapper p:nth-of-type(4) {
+    color: green;
+}
+
+.wrapper p:last-of-type {
+    background-color: yellow;
+    padding: 20px;
+}
+
+.wrapper p:first-of-type {
+    background-color: yellow;
+    padding: 20px;
+}
