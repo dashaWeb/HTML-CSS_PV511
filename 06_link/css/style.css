@@ -1,0 +1,45 @@
+p.link{
+    text-align: center;
+    word-spacing: 20px;
+    
+}
+/* a{
+    color:orange;
+} */
+h1{
+    text-align: center;
+    margin: 50px;
+}
+
+a:link{
+    color:orange;
+    background-color: rgb(41, 30, 3);
+    /* width: 100px; */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px #000;
+}
+a:visited{
+    background-color: #fff;
+    color:rgb(4, 57, 68);
+    
+}
+a:hover{
+    background-color: rgb(4, 57, 68);
+    color:#fff;
+    box-shadow:inset 0px 0px 10px #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+a:active{
+    background-color: black;
+    color: red;
+}
+
+.text{
+    font-size: 30px;
+}
+.about{
+    margin-top: 900px;
+}

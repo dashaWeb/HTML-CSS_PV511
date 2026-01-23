@@ -1,0 +1,27 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+a{
+    display: inline-block;
+    width: 100px;
+    background-color: aqua;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.menu-1 a{
+    background: linear-gradient(180deg,rgba(133, 243, 235, 1) 0%, rgba(54, 178, 169, 1) 54%);
+}
+.menu-1 a:hover{
+    background: linear-gradient(180deg,rgba(104, 239, 234, 1) 0%, rgba(37, 152, 155, 1) 54%);
+}
+.menu-2 a{
+    background: linear-gradient(180deg,rgba(130, 186, 243, 1) 0%, rgba(56, 113, 180, 1) 54%);
+}
