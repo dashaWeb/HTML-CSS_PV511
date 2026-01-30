@@ -1,0 +1,120 @@
+.figure-1{
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 10px black; */
+    /* transition:border-radius 5s ease-in-out 3s, transform 3s;
+    transform: translateX(0); */
+}
+.figure-1:hover{
+    background-color: blue;
+    border-radius: 0%;
+    transform: translateX(400px);
+}
+
+.img img:nth-child(1):hover{
+    transform: translateX(50px);
+}
+.img img:nth-child(2):hover{
+    transform: translateY(50px);
+}
+.img img:nth-child(3):hover{
+    transform: translate(50px,30px);
+}
+.img img:nth-child(4){
+    transform-origin: top left;
+}
+.img img:nth-child(4):hover{
+    transform: scaleX(-1);
+}
+
+.img img:nth-child(5):hover{
+    transform: scale(2);
+}
+.img img:nth-child(6):hover{
+    transform: rotate(45deg);
+}
+.img img:nth-child(7):hover{
+    transform: skewX(45deg);
+}
+
+.img img:nth-child(8):hover{
+    transform: perspective(50px) rotateY(15deg);
+}
+
+.img img:nth-child(9){
+    filter:blur(10px)
+}
+.img img:nth-child(9):hover
+{
+    filter:blur(0px) ;
+}
+.img img:nth-child(10):hover
+{
+    filter:brightness(0.5);
+}
+.img img:nth-child(11):hover
+{
+    filter: contrast(0.5);
+}
+.img img:nth-child(12):hover
+{
+    filter:grayscale(1);
+}
+.img img:nth-child(13):hover
+{
+    filter:hue-rotate(180deg);
+}
+.img img:nth-child(14):hover
+{
+    filter:invert(1);
+}
+
+.img img:nth-child(16):hover
+{
+    filter:saturate(0.5);
+}
+.img img:nth-child(17):hover
+{
+    filter:sepia(1);
+}
+.shadow{
+    /* box-shadow: 5px 5px 5px ; */
+    filter: drop-shadow(5px 5px 10px black);
+}
+
+.circle{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    border-radius: 50%;
+    transform-origin: top right;
+    transform: translateX(0%);
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: colors 5s linear infinite backwards;
+    
+}
+.circle:hover{
+    animation-play-state: paused;
+}
+
+@keyframes colors {
+    0%{
+       background-color: red; 
+       transform: translateX(0px);
+    }
+    25%{
+       background-color: yellow; 
+    }
+    50%{
+       background-color: purple; 
+    }
+    75%{
+       background-color: green; 
+    }
+    100%{
+       background-color: orange;
+       transform: translateX(700px); 
+    }
+}
