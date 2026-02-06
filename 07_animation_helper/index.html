@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle {
+            width: 500px;
+            height: 500px;
+            border: solid rgb(31, 142, 170);
+            border-radius: 50%;
+        }
+
+        .inside {
+            width: 500px;
+            height: 500px;
+            background-color: rgb(31, 142, 170);
+            border-radius: 50%;
+            transform: scale(0.04);
+        }
+
+        .arrow-m {
+            height: 5px;
+            background-color: rgb(31, 142, 170);
+            width: 48%;
+            transform-origin: left center;
+            transform: translate(250px, -252px) rotate(0deg);
+            animation: clock 5s linear infinite;
+        }
+        .arrow-h {
+            height: 5px;
+            background-color: rgb(31, 142, 170);
+            width: 15%;
+            transform-origin: left center;
+            transform: translate(250px, -255px) rotate(0deg);
+            animation: clock 10s linear infinite;
+        }
+        @keyframes clock {
+            from{
+                transform: translate(250px, -255px) rotate(0deg);
+            }
+            to{
+                transform: translate(250px, -255px) rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="circle">
+        <div class="inside"></div>
+        <div class="arrow-m"></div>
+        <div class="arrow-h"></div>
+    </div>
+</body>
+
+</html>
