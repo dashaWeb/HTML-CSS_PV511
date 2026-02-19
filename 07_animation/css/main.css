@@ -118,3 +118,9 @@
        transform: translateX(700px); 
     }
 }
+.text{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    overflow: hidden;
+}
